@@ -1,0 +1,531 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    font-family: arial, tahoma;
+    margin: 0;
+    padding:0;
+}
+.container{
+    width:1100px;
+    margin: auto
+}
+
+
+
+
+/* Start navegation Bar */
+
+.navbar{
+    height: 0px;
+    color: #FFF;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar .nav{
+    padding-top: 20px;
+}
+.navbar .nav .headnav{
+    text-transform:uppercase;
+    width: 50%
+}
+
+.navbar .nav .ulnav{
+    margin:5px 0px 0px 0px;
+    padding:0px;
+    width: 50%;
+    direction:ltr;
+    text-align: right;
+}
+.navbar .nav .ulnav li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+    margin-right: 20px;
+    border-bottom: 2px solid transparent ;
+    text-transform:uppercase;
+    font-size:smaller;
+}
+
+.navbar .nav .ulnav li a{
+    color: #EEE;
+    padding-bottom: 5px;
+    text-decoration: none
+}
+
+.navbar .nav .ulnav .active a{
+    border-bottom: 2px solid #1abc9c;
+    color: #1abc9c
+}
+.navbar .nav .ulnav li a:hover{
+    color: #1abc9c;
+}
+.navbar .nav .ulnav li a:hover{
+    border-bottom: 2px solid #1abc9c;
+}
+
+/* End navegation Bar */
+
+/* Start Header */
+.header{
+    background-image: url('../image/header3.jpg');
+    position: relative;
+    height:650px;
+    width: 100%;
+    background-size: cover;
+}
+
+.header .overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    z-index:1
+}
+.header .bx-wrapper{
+    height: 100%;
+    box-shadow: none;
+    border: none;
+    background:none;
+}
+
+.header .bx-wrapper .bx-viewport{
+    height: 100% !important;
+    text-align: center;
+    color: #EEE
+
+}
+
+.header .bx-wrapper .bx-viewport .bxslider li h2{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.header .bx-wrapper .bx-viewport .bxslider li h2 span{
+    color:#1abc9c;
+}
+
+/* End Header */
+
+/* Start Our Sevices */
+
+.my_services .services{
+    margin: 60px 0px 60px 20px;
+}
+.my_services .services > h2 {
+    margin-top: 40px;
+    font-weight: normal;
+}
+
+.my_services .services .items{
+    float:left;
+    width: 33.33333%;
+    margin-top:70px;
+}
+
+.my_services .services .items i{
+    float: left;
+    width: 20%;
+    color:#1abc9c
+}
+.my_services .services .items .info{
+    float: left;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.my_services .services .items .info h2{
+    font-weight: normal;
+    margin-bottom: 21px;
+    color: #333
+}
+
+.my_services .services .items .info p{
+    line-height: 1.4;
+    color: #b9b7b7
+}
+
+
+
+.my_services .team{
+    margin-top: 80px;
+}
+
+.my_services .team .box{
+    float: left;
+}
+
+.team .box{
+    float: left;
+}
+
+.team .box h2{
+    font-weight: normal;
+    margin: 7px 0px 20px 0px;
+    color: #333
+}
+
+.team .box p{
+    line-height: 1.4;
+    color: #b9b7b7
+}
+
+.team .box:first-child{
+    width: 30%;
+}
+
+.team .box:not(:first-child){
+    width:16%;
+    margin-left: 1.5%;
+    position: relative;
+}
+
+.team .box:not(:first-child) img{
+    width: 100%;
+}
+
+.team .box:not(:first-child) .layaute{
+    background-color:#1abc9c;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    width:100%;
+    height:100%;
+    display: none;
+}
+
+.team .box:not(:first-child):hover .layaute{
+    display: block;
+    opacity: .8;
+}
+
+.team .box:not(:first-child) .layaute p{
+    text-align: center;
+    line-height: 175px;
+    font-size: 35px;
+    color:#EEE;
+}
+       /* start under line our team*/
+.line_under2{
+    position:relative;
+}
+.line_under2:after {
+    content: "";
+    position: absolute;
+    top: 119px;
+    left: 30px;
+    border: 1px solid #EEE;
+    width: 26px;
+    color: #EEE
+}
+       /* end under line our team*/
+/* End  Our Sevices */
+
+/* Start  Our client */
+.our_client{
+    background-image: url('../image/test1.jpg');
+    position: relative;
+    width: 100%;
+    height:350px;
+    margin-top: 80px;
+    background-size: cover;
+}
+
+.our_client .overlay{
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    z-index:1;
+}
+
+.our_client .overlay .client {
+    width: 750px;
+    text-align: center;
+    margin:90px 0 0 270px;
+}
+
+.our_client .overlay .client {
+    width: 750px;
+    text-align: center;
+    margin-left: 270px;
+    position:relative;
+}
+
+.our_client .overlay .client h2{
+    margin: 0 0 48px 283px;
+    width: 208px;
+    color: #d4d4d4;
+    font-weight:normal
+}
+
+.line_under3{
+    position:relative;
+}
+.line_under3:after{
+    content: "";
+    position:absolute;
+    top: 35px;
+    left: 0px;
+    border: 1px solid #EEE;
+    width: 34px;
+}
+
+.our_client .overlay .client q{
+    line-height: 1.5;
+    color: #b3a4a4
+}
+
+.our_client .overlay .client p{
+    margin-top: 80px;
+    color: #2c9a84
+}
+/* End  Our client */
+
+/* Strat  Project */
+.project{
+    margin: 80px 0 80px 0; 
+    overflow: hidden;
+}
+
+.project h2{
+    margin-bottom: 50px;
+    font-weight:normal;
+    color: #4c4b4b
+}
+
+.project ul{
+    list-style: none;
+    margin:0;
+}
+
+.project ul li{
+    float:left;
+    border: 1px solid #9e9e9e;
+    margin-right: 5px;
+    padding: 10px 20px;
+    color: #9e9e9e;
+    cursor: pointer;
+}
+.project ul .active{
+    background-color:#2c9a84;
+    border: 1px solid#2c9a84;
+    color: #EEE
+}
+
+.project  .templte {
+    margin: 40px 0 0 0; 
+    overflow: hidden;
+
+}
+
+.project  .templte .row .mix{
+    display: none;
+}
+
+.project  .templte .row div{
+    position:relative
+}
+
+.project  .templte .row > div{
+    width:32%;
+    float:left;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    padding:0px
+}
+
+.project  .templte .row > div:nth-child(2){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.project  .templte .row  div img{
+    width: 100%;
+    height:100%
+}
+
+
+
+.project  .templte .row div .layaute2{
+    background-color:#1abc9c;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    width:100%;
+    height:100%;
+    display: none;
+    transition: all .8s ease-in-out;
+}
+
+.project  .templte .row div:hover .layaute2{
+    display: block;
+    opacity: .8;
+    transition: all .8s ease-in-out;
+}
+
+.project  .templte .row div button{
+    position: absolute;
+    top: 85px;
+    left: 125px;
+    padding: 14px 20px;
+    background: none;
+    color: #EEE;
+    border: 1px solid #EEE;
+    display: none;
+    transition: all .8s ease-in-out;
+}
+
+
+.project  .templte .row div:hover button{
+    display:block;
+    transition: all .8s ease-in-out;
+}
+
+
+.heart{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #EEE;
+    display: none;
+    transition: all .8s ease-in-out;
+}
+
+.project  .templte .row div:hover .heart{
+    display: block;
+    transition: all .8s ease-in-out;
+}
+/* End  Project */
+
+/*Start Footer*/
+.my_footer{
+    background-color: #232323;
+    padding: 90px 0 60px 0;
+}
+
+
+.my_footer .footer .footerhead{
+    overflow:hidden
+}
+
+.my_footer .footer .footerhead > div{
+    float:left;
+    width: 23.5%;
+}
+
+.my_footer .footer .footerhead > :first-child{
+    margin-right: 2%;
+}
+.my_footer .footer .footerhead > :nth-child(2){
+    margin-right: 2%;
+}
+.my_footer.footer .footerhead > :nth-child(3){
+margin-right: 2%;
+}
+
+.my_footer .footer .footerhead > :last-child{
+
+}
+
+.my_footer .footer .footerhead  div h2{
+    color: #e2e2e2;
+    font-weight: normal;
+    margin-bottom:20px;
+    font-size: 20px;
+}
+
+.my_footer .footer .footerhead .blog p{
+    color: #e2e2e2;
+    font-size: 14px;
+}
+
+.my_footer .footer .footerhead .blog hr{
+    margin: 10px 0 10px 0;
+    border: 1px solid #737373;
+}
+.my_footer .footer .footerhead  div p{
+    color: rgb(107, 106, 106);
+    line-height: 1.5;
+}
+
+.my_footer .footer .footerhead  div button{
+    background: none;
+    padding: 12px 14px;
+    border: 1px solid hsl(0deg 0% 59%);
+    color: hsl(0deg 0% 59%);
+    margin: 0 3px 10px 0
+}
+
+.my_footer .footer .footerhead .resent > div{
+    float: left
+}
+
+.my_footer .footer .footerhead .resent  .resentimg{
+   width: 30%
+}
+
+.my_footer .footer .footerhead .resent  .resentimg img{
+    margin-bottom: 5px;
+}
+
+.my_footer .footer .footerhead .resent  .resentpspan{
+    width: 60%;
+    margin-left: 5%;
+}
+
+.my_footer .footer .footerhead .resent  .resentpspan > div{
+    margin: 5px 0 25px 0;
+}
+
+.my_footer .footer .footerhead .resent  .resentpspan p{
+    font-size:14px;
+    color:#e2e2e2;
+    margin-bottom: 10px
+}
+
+.my_footer .footer .footerhead .resent  .resentpspan span{
+    color: hsl(0deg 0% 59%);
+    font-size: 13px
+}
+
+.footer p{
+    color: rgb(107, 106, 106);
+    font-size: 14px
+}
+/*End Footer*/
+
+
+/* Start My Framework */
+.my_float{
+    float:left;
+}
+
+.clearfix{
+    clear:both
+}
+
+.line_under{
+    position:relative;
+}
+.line_under:after{
+    content: "";
+    position:absolute;
+    top: 35px;
+    left: 0px;
+    border: 0.3px solid #334;
+    width: 34px;
+}
+/* End My Framework */
